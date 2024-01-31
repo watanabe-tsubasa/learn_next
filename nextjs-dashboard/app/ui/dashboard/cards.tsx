@@ -28,9 +28,7 @@ export default async function CardWrapper() {
       /> */}
     </>
   );
-}
-
-export function Card({
+}export function Card({
   title,
   value,
   type,

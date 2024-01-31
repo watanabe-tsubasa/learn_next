@@ -1,10 +1,11 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { ReactNode } from 'react';
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <html lang="en">
